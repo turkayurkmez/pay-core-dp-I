@@ -29,5 +29,11 @@
                 name = value;
             }
         }
+
+        public int Stock { get; set; }
+
+        public bool IsAvailable { get; }
+
+
     }
 }

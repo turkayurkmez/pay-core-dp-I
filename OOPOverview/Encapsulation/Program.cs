@@ -9,6 +9,10 @@ Product p1 = new Product();
 
 //}
 
-p1.SetPrice(-3);
+p1.SetPrice(10);
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine($"Ürünün fiyatı: {p1.GetPrice()}");
+p1.Name = "Gözlük";
+Console.WriteLine(p1.Name);
+p1.Stock = 1000;
+Console.WriteLine(p1.Stock);
