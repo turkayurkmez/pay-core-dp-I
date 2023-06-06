@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "Constructor\Constructor.csproj", "{303321F0-87B0-40A4-BA27-2C8D9C15794F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceAndPolymorphism", "InheritanceAndPolymorphism\InheritanceAndPolymorphism.csproj", "{BF2449B7-7854-4A6C-AEC1-55ED637ACE3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractAndInterface", "AbstractAndInterface\AbstractAndInterface.csproj", "{651EC02E-ADA3-4896-A5B9-04DF9D4BFD65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{303321F0-87B0-40A4-BA27-2C8D9C15794F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{303321F0-87B0-40A4-BA27-2C8D9C15794F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{303321F0-87B0-40A4-BA27-2C8D9C15794F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF2449B7-7854-4A6C-AEC1-55ED637ACE3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2449B7-7854-4A6C-AEC1-55ED637ACE3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2449B7-7854-4A6C-AEC1-55ED637ACE3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2449B7-7854-4A6C-AEC1-55ED637ACE3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651EC02E-ADA3-4896-A5B9-04DF9D4BFD65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651EC02E-ADA3-4896-A5B9-04DF9D4BFD65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651EC02E-ADA3-4896-A5B9-04DF9D4BFD65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651EC02E-ADA3-4896-A5B9-04DF9D4BFD65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,13 +8,19 @@
     public class Report
     {
         //Bu sınıftan türeyen nesne; bir excel dosyasından veriyi okur ve belirtilen formatta rapor oluşturur.
-        public Report()
+        //public Report()
+        //{
+        //    Format = ReportFormat.PDF;
+        //}
+        public Report(string filePath) : this(filePath, ReportFormat.PDF)
         {
-            Format = ReportFormat.PDF;
+
         }
-        public Report(string filePath)
+
+        public Report(string filePath, ReportFormat reportFormat)
         {
             FilePath = filePath;
+            Format = reportFormat;
         }
 
         public ReportFormat Format { get; set; }
