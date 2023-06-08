@@ -1,5 +1,10 @@
 ﻿namespace LiskovSubstution
 {
+
+    /*
+     * Bir base class ile derived class birbirlerinin yerine kullanılabilir olmalıdır.
+     * Başka bir deyişle; miras alan, verenin davranışına müdahale edemez.
+     */
     public interface IArea
     {
         int GetArea();
