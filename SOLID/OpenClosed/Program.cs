@@ -2,7 +2,7 @@
 
 using OpenClosed;
 
-Customer customer = new Customer() { Name = "Türkay", Card = new Gold() };
+Customer customer = new Customer() { Name = "Türkay", Card = new Premium() };
 OrderManager orderManager = new OrderManager { Customer = customer };
 
 var price = orderManager.GetDiscountedPrice(1000);

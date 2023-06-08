@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility", "SingleResponsibility\SingleResponsibility.csproj", "{196B496E-5FF6-4199-89BB-08F1B050625E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibility", "SingleResponsibility\SingleResponsibility.csproj", "{196B496E-5FF6-4199-89BB-08F1B050625E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosed", "OpenClosed\OpenClosed.csproj", "{6A162D86-E32F-4E0D-8E51-EAE24B85561B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosed", "OpenClosed\OpenClosed.csproj", "{6A162D86-E32F-4E0D-8E51-EAE24B85561B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstution", "LiskovSubstution\LiskovSubstution.csproj", "{2F84194E-40C0-42CE-B7C1-0D29DEAED8F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6A162D86-E32F-4E0D-8E51-EAE24B85561B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A162D86-E32F-4E0D-8E51-EAE24B85561B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A162D86-E32F-4E0D-8E51-EAE24B85561B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F84194E-40C0-42CE-B7C1-0D29DEAED8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F84194E-40C0-42CE-B7C1-0D29DEAED8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F84194E-40C0-42CE-B7C1-0D29DEAED8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F84194E-40C0-42CE-B7C1-0D29DEAED8F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
