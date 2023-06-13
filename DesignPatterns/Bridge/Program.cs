@@ -7,6 +7,14 @@ SalesReport salesReport = new SalesReport();
 salesReport.Format = new ExcelFormat();
 salesReport.Format = new PdfFormat();
 
+/*
+ *  .... is a .....
+ *  ..... has a .....
+ *  
+ *  ...., bir ..... dır
+ *  ...., ..... özelliği vardır
+ *  
+ */
 
 public class Report
 {

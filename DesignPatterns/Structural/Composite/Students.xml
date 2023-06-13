@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Students>
+	<Student>
+		<FirstName>Türkay</FirstName>
+		<LastName>Ürkmez</LastName>
+		<Addresses>
+			<Adress>
+				<Type>Ev adresi</Type>
+				<City>Eskişehir</City>
+				<Country>Türkiye</Country>
+			</Adress>			
+		</Addresses>
+	</Student>
+</Students>
